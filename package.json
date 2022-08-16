@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "dev:ssr": "node public/build/ssr.mjs",
+        "build": "vite build",
+        "build:ssr": "vite build --ssr",
+        "build:all": "vite build && vite build --ssr",
+        "killnode": "npx kill-port 13714"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.1",
+        "@vue/compiler-sfc": "^3.2.37",
+        "autoprefixer": "^10.4.8",
+        "postcss": "^8.4.14",
+        "vite": "^3.0.4",
+        "vite-plugin-laravel": "^0.2.0-beta.29"
+    },
+    "dependencies": {
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@inertiajs/server": "^0.1.0",
+        "sass": "^1.54.4",
+        "sass-loader": "^13.0.2",
+        "swiper": "^8.3.2",
+        "vue": "^3.2.36",
+        "vue3-lazyload": "^0.3.6",
+        "ziggy-js": "^1.4.6"
+    }
+}
