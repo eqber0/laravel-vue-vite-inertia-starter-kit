@@ -16,7 +16,7 @@ php artisan ziggy:generate --url="${APP_URL}" (Generating routes for your pages.
 
 npm run build , npm run build:ssr (instead of these 2 commands you can use -> "npm run build:all")
 
-When creating your files you're ready to start your local server with running these 3 commands in seperate terminals;
+When you're done creating the files. You're ready to start your local server with running these 3 commands in seperate terminals;
 
 php artisan serve
 
