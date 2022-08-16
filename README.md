@@ -24,7 +24,7 @@ npm run dev
 
 npm run dev:ssr
 
-And now you can see your project in this url -> "http://127.0.0.1:8000/" or "localhost:8000"
+And now you can see your project in this url -> "http://127.0.0.1:8000/" or "https://localhost:8000"
 
 ## Add your files
 
