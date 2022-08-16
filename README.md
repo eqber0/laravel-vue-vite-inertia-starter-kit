@@ -6,7 +6,7 @@ To make it easy for you to get started with GitLab, here's a list of recommended
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-composer install (if these command gets an error you should try this insted -> "composer install --ignore-platform-reqs" )
+composer install (if this command gets an error you should try this instead -> "composer install --ignore-platform-reqs" )
 
 npm install
 
@@ -14,7 +14,7 @@ cp .env.example .env (When .env file created change APP_URL to your site url.)
 
 php artisan ziggy:generate --url="${APP_URL}" (Generating routes for your pages.)
 
-npm run build , npm run build:ssr (insted of these 2 commands you can use -> "npm run build:all")
+npm run build , npm run build:ssr (instead of these 2 commands you can use -> "npm run build:all")
 
 When creating your files you're ready to start your local server with running these 3 commands in seperate terminals;
 
